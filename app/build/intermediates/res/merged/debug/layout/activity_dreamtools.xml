@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dip"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_control"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="controlView"
+            android:text="@string/control" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_monitor"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="monitorView"
+            android:text="@string/monitor" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_satfinder"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="satfinderView"
+            android:text="@string/satfinder" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:gravity="center"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_movies"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="moviesView"
+            android:text="@string/movies" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_media"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="mediaView"
+            android:text="@string/media" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_settings"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="settingsView"
+            android:text="@string/settings" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:gravity="center"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_close"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="close"
+            android:text="@string/close" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_stream"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="streamView"
+            android:text="@string/stream" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher_about"
+            android:gravity="center"
+            android:onClick="aboutView"
+            android:text="@string/about" />
+    </TableRow>
+
+</TableLayout>

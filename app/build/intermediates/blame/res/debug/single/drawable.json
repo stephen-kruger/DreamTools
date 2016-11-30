@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\light_dark_gradient.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\light_dark_gradient.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rounded.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\shape_rounded.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_divider.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\list_divider.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dark_light_gradient.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\drawable\\dark_light_gradient.xml"
+    }
+]

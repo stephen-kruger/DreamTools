@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>  
+    
+    <string-array name="graph_style">
+        <item>Line</item>
+        <item>Bar</item>
+    </string-array>
+    
+    <string-array name="graph_style_values">
+        <item>false</item>
+        <item>true</item>
+    </string-array> 
+    
+	<string-array name="graph_delay">
+        <item>250ms</item>
+        <item>500ms</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+	<string-array name="graph_delay_values">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>    
+    
+    <string-array name="sync_prefs_values">
+        <item>0</item>
+        <item>3600000</item>
+        <item>86400000</item>
+        <item>604800000</item>
+        <item>2629743830</item>
+        <item>9223372036854</item>
+    </string-array>
+  
+     <string-array name="sync_prefs">
+        <item>@string/sync_always</item>
+        <item>@string/sync_hour</item>
+        <item>@string/sync_day</item>
+        <item>@string/sync_week</item>     
+        <item>@string/sync_month</item>     
+        <item>@string/sync_never</item>
+    </string-array>  	    
+
+	<string-array name="monitor_size">
+        <item>@string/monitor_small</item>
+        <item>@string/monitor_medium</item>
+        <item>@string/monitor_large</item>
+        <item>@string/monitor_xlarge</item>
+        </string-array>
+	<string-array name="monitor_size_values">
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        </string-array>          
+</resources>

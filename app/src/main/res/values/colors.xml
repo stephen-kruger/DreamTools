@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="gradient_start">#105CB6</color>
+    <color name="gradient_center">#B3D3FC</color>
+    <color name="gradient_end">#000000</color>
+    <color name="panel_color">#082C5A</color>
+    <color name="title_bar">#283F5E</color>
+    <color name="light_text">#ffffff</color>
+
+</resources>

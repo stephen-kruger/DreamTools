@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_control.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_control.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monitor.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_monitor.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_epg.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\alert_epg.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_datepicker.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\widget_datepicker.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_zap.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\alert_zap.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_zap.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\title_zap.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zap.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_zap.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_satfinder.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_satfinder.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ex_list_child.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\ex_list_child.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_datetimepicker.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\widget_datetimepicker.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dreamtools.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_dreamtools.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_timepicker.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\widget_timepicker.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ex_list_group.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\ex_list_group.xml"
+    },
+    {
+        "merged": "C:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_timer.xml",
+        "source": "C:\\workspace\\androidstudio\\DreamTools\\app\\src\\main\\res\\layout\\activity_add_timer.xml"
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:padding">0dip</item>
+        </style>
+ 
+    <style name="ZapTitleTheme" parent="android:Theme">
+        <item name="android:padding">0dip</item>
+        <item name="android:windowTitleSize">75dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+</resources>

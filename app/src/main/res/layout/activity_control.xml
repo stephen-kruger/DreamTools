@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rounded"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/currentService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/no_title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/currentTitle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="@string/no_title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageButton
+                android:id="@+id/epgPrev"
+                android:background="@android:drawable/list_selector_background"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="epgPrevView"
+                android:src="@drawable/ic_action_left" />
+
+            <TextView
+                android:id="@+id/pageIndex"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0/0" />
+
+            <ImageButton
+                android:id="@+id/epgNext"
+                android:background="@android:drawable/list_selector_background"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="epgNextView"
+                android:src="@drawable/ic_action_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/startTime"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/currentStart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="5dip"
+                android:text="0:00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/endTime"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/currentEnd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="5dip"
+                android:text="00:00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/duration"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/currentDuration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="5dip"
+                android:text="00:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingTop="4dip" >
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/bouquetRoller"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/channelRoller"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- the bottom tool section -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/powerControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="powerView"
+                    android:src="@drawable/ic_menu_power" />
+
+                <ImageButton
+                    android:id="@+id/timerControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTimerView"
+                    android:src="@drawable/ic_menu_timer" />
+
+                <ImageButton
+                    android:id="@+id/nowPlayingControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="monitorView"
+                    android:src="@drawable/ic_menu_photo" />
+
+                <ImageButton
+                    android:id="@+id/messageControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="messageView"
+                    android:src="@drawable/ic_menu_message" />
+
+                <ImageButton
+                    android:id="@+id/epgControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="epgView"
+                    android:src="@drawable/ic_menu_epg" />
+                
+                <ImageButton
+                    android:id="@+id/zapControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="zapView"
+                    android:src="@drawable/ic_menu_video" />                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/muteControl"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="muteView"
+                    android:src="@drawable/ic_menu_audio" />
+
+                <com.madibasoft.dreamtools.widgets.HorizontalSlider
+                    android:id="@+id/volumeControl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawable="@drawable/ic_menu_audio"
+                    android:max="100"
+                    android:paddingRight="5dip"
+                    android:progress="0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

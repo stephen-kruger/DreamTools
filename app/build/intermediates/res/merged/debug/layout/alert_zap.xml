@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RadioGroup
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/zap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zap to 1" />
+
+        <RadioButton
+            android:id="@+id/zap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zap to 2" />
+
+        <RadioButton
+            android:id="@+id/zap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zap to 3" />
+
+        <RadioButton
+            android:id="@+id/zap4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zap to 4" />
+    </RadioGroup>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectLayout">
+        <attr name="wideCount" format="integer"/>
+        <attr name="narrowCount" format="integer"/>
+    </declare-styleable>
+</resources>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\workspace\androidstudio\DreamTools\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3719d87c17aeedfaf1ecc9aca0f29d3948ec803">
+        <dex dex="C:\workspace\androidstudio\DreamTools\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f6f0779305b9bad3fa204df8922d688fa29fbdd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\workspace\androidstudio\DreamTools\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a5014e1891d1264c69e05fc28bb625b46d11d09c">
+        <dex dex="C:\workspace\androidstudio\DreamTools\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a0db693606166e3b09085fe5c3bc68fc478c5a2a\classes.dex" />
+    </item>
+
+</items>

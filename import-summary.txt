@@ -1,0 +1,86 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\DreamTools.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* DreamTools.apk
+* Enigma2API.java
+* dreamtools.keystore
+* proguard.cfg
+* scratch\
+* scratch\.svn\
+* scratch\.svn\all-wcprops
+* scratch\.svn\entries
+* scratch\.svn\prop-base\
+* scratch\.svn\prop-base\android-logo.png.svn-base
+* scratch\.svn\prop-base\cc_license.txt.svn-base
+* scratch\.svn\prop-base\icon-512x512.png.svn-base
+* scratch\.svn\prop-base\screenshot1.png.svn-base
+* scratch\.svn\prop-base\screenshot2.png.svn-base
+* scratch\.svn\prop-base\screenshot3.png.svn-base
+* scratch\.svn\prop-base\screenshot4.png.svn-base
+* scratch\.svn\prop-base\screenshot5.png.svn-base
+* scratch\.svn\prop-base\screenshot6.png.svn-base
+* scratch\.svn\prop-base\screenshot7.png.svn-base
+* scratch\.svn\text-base\
+* scratch\.svn\text-base\android-logo.png.svn-base
+* scratch\.svn\text-base\cc_license.txt.svn-base
+* scratch\.svn\text-base\icon-512x512.png.svn-base
+* scratch\.svn\text-base\screenshot1.png.svn-base
+* scratch\.svn\text-base\screenshot2.png.svn-base
+* scratch\.svn\text-base\screenshot3.png.svn-base
+* scratch\.svn\text-base\screenshot4.png.svn-base
+* scratch\.svn\text-base\screenshot5.png.svn-base
+* scratch\.svn\text-base\screenshot6.png.svn-base
+* scratch\.svn\text-base\screenshot7.png.svn-base
+* scratch\android-logo.png
+* scratch\cc_license.txt
+* scratch\icon-512x512.png
+* scratch\promo-small.png
+* scratch\promo.png
+* scratch\screenshot1.png
+* scratch\screenshot2.png
+* scratch\screenshot3.png
+* scratch\screenshot4.png
+* scratch\screenshot5.png
+* scratch\screenshot6.png
+* scratch\screenshot7.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
