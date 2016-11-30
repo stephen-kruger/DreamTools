@@ -7,19 +7,6 @@ import org.json.JSONObject;
 
 public class EPGObject extends ServiceObject {
 
-	/*
-	 *    {
-	 *      "e2eventcurrenttime": "1322332681",
-	 *      "e2eventdescription": "Actionthriller",
-	 *      "e2eventdescriptionextended": "CIA-Spezialagent Marcus (Wesley Snipes) muss in Detroit einen heißen Job erledigen. Er soll einen Waffenschmuggler mitsamt dessen Finanzier aus dem Weg räumen. Aber bei dem Einsatz machen sich seine Kollegen Zander (Gary Daniels) und Floria (Zoe Bell) selbstständig. Sie töten seinen Mentor, klauen das Geld und schieben ihm alles in die Schuhe. Marcus hat keine Wahl: Er muss gnadenlos Rache nehmen. - Mit coolen Martial-Arts-Fights kämpft sich Wesley Snipes durch die Agenten-Action.\nUSA 2009. 94 Min. Von Giorgio Serafini, mit Wesley Snipes, Zoe Bell, Gary Daniels.",
-	 *      "e2eventduration": "6000",
-	 *      "e2eventid": "14543",
-	 *      "e2eventservicename": "Sky Cinema +24",
-	 *      "e2eventservicereference": "1:0:1:2B:2:85:C00000:0:0:0:",
-	 *      "e2eventstart": "1322605500",
-	 *      "e2eventtitle": "Game of Death"
-	 *   }
-	 */
 	public EPGObject(JSONObject jo) {
 		super(jo);
 	}

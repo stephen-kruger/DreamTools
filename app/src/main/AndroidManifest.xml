@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.madibasoft.dreamtools"
-    android:versionCode="20"
+    android:versionCode="21"
     android:versionName="@string/app_version" >
-
-    <uses-sdk android:minSdkVersion="8" />
 
     <application
         android:icon="@drawable/icon"
@@ -17,18 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="SettingsActivity"></activity>
-        <activity android:name=".ServiceSelectorActivity"></activity>
-        <activity android:name="AboutActivity"></activity>
-        <activity android:name="SatfinderActivity"></activity>
-        <activity android:name="VideoActivity"></activity>
-        <activity android:name="ZapActivity" android:theme="@style/ZapTitleTheme"></activity>
-        <activity android:name="MovieActivity" android:theme="@style/ZapTitleTheme"></activity>
-        <activity android:name="ControlActivity"></activity>
-        <activity android:name="AddTimerActivity"></activity>
-        <activity android:name="MonitorActivity" android:label="@string/monitor"></activity>
+        <activity android:name="SettingsActivity"/>
+        <activity android:name=".ServiceSelectorActivity"/>
+        <activity android:name="AboutActivity"/>
+        <activity android:name="SatfinderActivity"/>
+        <activity android:name="VideoActivity"/>
+        <activity android:name="ZapActivity" android:theme="@style/ZapTitleTheme"/>
+        <activity android:name="MovieActivity" android:theme="@style/ZapTitleTheme"/>
+        <activity android:name="ControlActivity"/>
+        <activity android:name="AddTimerActivity"/>
+        <activity android:name="MonitorActivity" android:label="@string/monitor"/>
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.VIBRATE" />
     </application>
-	<uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.VIBRATE" />
+
 	
 </manifest>
