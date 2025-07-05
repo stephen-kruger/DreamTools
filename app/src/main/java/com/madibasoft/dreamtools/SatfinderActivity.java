@@ -174,11 +174,14 @@ public class SatfinderActivity extends Activity implements OnSharedPreferenceCha
 				RadioButton rb = (RadioButton) v;
 				alert.dismiss();
 				try {
-					switch (rb.getId()) {
-					case R.id.zap1 :zapTo(sp.getString(SettingsActivity.ZAP1_PREF, ""));break;
-					case R.id.zap2 :zapTo(sp.getString(SettingsActivity.ZAP2_PREF, ""));break;
-					case R.id.zap3 :zapTo(sp.getString(SettingsActivity.ZAP3_PREF, ""));break;
-					case R.id.zap4 :zapTo(sp.getString(SettingsActivity.ZAP4_PREF, ""));break;
+					if (rb.getId() == R.id.zap1) {
+						zapTo(sp.getString(SettingsActivity.ZAP1_PREF, ""));
+					} else if (rb.getId() == R.id.zap2) {
+						zapTo(sp.getString(SettingsActivity.ZAP2_PREF, ""));
+					} else if (rb.getId() == R.id.zap3) {
+						zapTo(sp.getString(SettingsActivity.ZAP3_PREF, ""));
+					} else if (rb.getId() == R.id.zap4) {
+						zapTo(sp.getString(SettingsActivity.ZAP4_PREF, ""));
 					}
 					Toast.makeText(SatfinderActivity.this, rb.getText(), Toast.LENGTH_SHORT).show();
 				}

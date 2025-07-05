@@ -85,18 +85,14 @@ public class DateTimePicker extends RelativeLayout implements View.OnClickListen
 
         // Handle button clicks
         public void onClick(View v) {
-                switch (v.getId()) {
-                        case R.id.SwitchToDate:
-                                v.setEnabled(false);
-                                findViewById(R.id.SwitchToTime).setEnabled(true);
-                                viewSwitcher.showPrevious();
-                                break;
-
-                        case R.id.SwitchToTime:
-                                v.setEnabled(false);
-                                findViewById(R.id.SwitchToDate).setEnabled(true);
-                                viewSwitcher.showNext();
-                                break;
+                if (v.getId() == R.id.SwitchToDate) {
+                        v.setEnabled(false);
+                        findViewById(R.id.SwitchToTime).setEnabled(true);
+                        viewSwitcher.showPrevious();
+                } else if (v.getId() == R.id.SwitchToTime) {
+                        v.setEnabled(false);
+                        findViewById(R.id.SwitchToDate).setEnabled(true);
+                        viewSwitcher.showNext();
                 }
         }
 

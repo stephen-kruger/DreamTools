@@ -177,7 +177,8 @@ public abstract class AbstractServiceObjectActivity extends Activity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		onCreate(savedInstanceState,true);
+        super.onCreate(savedInstanceState);
+        onCreate(savedInstanceState,true);
 	}
 
 	abstract List<? extends ServiceObject> getGroups() throws IOException, JSONException;

@@ -1,19 +1,31 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 8
-    buildToolsVersion "24.0.2"
+    namespace 'com.madibasoft.dreamtools'
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.madibasoft.dreamtools"
-        minSdkVersion 8
-        targetSdkVersion 8
+        versionName "1.5.7"
+        versionCode 157
+        minSdkVersion 20
+        targetSdkVersion 34
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../signing/dreamtools.jks")
+            storePassword "????"
+            keyAlias "dreamtool"
+            keyPassword "????"
+        }
     }
 
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
         }
     }
 }

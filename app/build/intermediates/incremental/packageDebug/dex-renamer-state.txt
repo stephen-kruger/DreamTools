@@ -1,7 +1,0 @@
-#Tue Nov 29 23:08:26 GMT 2016
-base.0=C\:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f6f0779305b9bad3fa204df8922d688fa29fbdd3
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a0db693606166e3b09085fe5c3bc68fc478c5a2a\\classes.dex
-base.1=C\:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a0db693606166e3b09085fe5c3bc68fc478c5a2a
-file.0=C\:\\workspace\\androidstudio\\DreamTools\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f6f0779305b9bad3fa204df8922d688fa29fbdd3\\classes.dex

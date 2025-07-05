@@ -232,10 +232,10 @@ public class AddTimerActivity extends Activity {
 					int timerType = 0;
 					RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup);					 
 					int checkedRadioButton = radioGroup.getCheckedRadioButtonId();					 
-					switch (checkedRadioButton) {
-					  case R.id.radioRecord : timerType = Enigma2API.TIMER_RECORD;
-					                   	              break;
-					  case R.id.radioZap : timerType = Enigma2API.TIMER_SWITCH;
+					if (checkedRadioButton == R.id.radioRecord) {
+						timerType = Enigma2API.TIMER_RECORD;
+					} else if (checkedRadioButton == R.id.radioZap) {
+						timerType = Enigma2API.TIMER_SWITCH;
 					}
 					ServiceObject service = new ServiceObject(getIntent().getStringExtra(SERVICE_OBJECT));
 					EPGObject epg = new EPGObject(getIntent().getStringExtra(EPG_OBJECT));
