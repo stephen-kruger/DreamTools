@@ -1,5 +1,5 @@
 /app/build/**
-.gradle/
-.vscode/
-.idea/
-build/
+/.gradle/**
+/.vscode/**
+/build/**
+/.idea/**
